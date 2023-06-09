@@ -1,0 +1,163 @@
+body {
+    background-color: #030b13;
+    color: white;
+    font-family: Arial;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+.outerContainer{
+    position: absolute;
+    justify-content: center;
+    top: 15%;
+    left:25%;
+    display: inline-block;
+    background-color: #182331;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    width:50%;
+    height: 8vw;
+
+}
+
+.CombinedContainer{
+    display: flex;
+  justify-content: space-between;
+  
+}
+
+.component-wrapper {
+    margin: 10px;
+  }
+
+  .rec_1{
+    display: flex;
+    margin-top: 2%;
+    position: absolute;
+    font-family: Arial;
+    justify-content: center;
+    top: 35%;
+    left:10%;
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width:80%;
+    height: 4vw;
+
+}
+
+
+.rec_2{
+    margin-top: 2%;
+    position: absolute;
+    font-family: Arial;
+    justify-content: center;
+    top: 45%;
+    left:10%;
+    display: inline-block;
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width:80%;
+    height: 4vw;
+
+}
+
+.rec_3{
+    margin-top: 2%;
+    position: absolute;
+    font-family: Arial;
+    justify-content: center;
+    top: 55%;
+    left:10%;
+    display: inline-block;
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width:80%;
+    height: 4vw;
+
+}
+
+.rec_4{
+    margin-top: 2%;
+    position: absolute;
+    font-family: Arial;
+    justify-content: center;
+    top: 65%;
+    left:10%;
+    display: inline-block;
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width:80%;
+    height: 4vw;
+
+}
+
+.rec_5{
+    margin-top: 2%;
+    position: absolute;
+    font-family: Arial;
+    justify-content: center;
+    top: 75%;
+    left:10%;
+    display: inline-block;
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width:80%;
+    height: 4vw;
+
+}
+
+
+input{
+    display: inline-block;
+    margin-right: 2%;
+    position: absolute;
+    top: 40%;
+    left:10%;
+    background-color: #203043;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    width:50%;
+    height: 2vw;
+    
+}
+
+button{
+    display: inline-block;
+    background-color: #2A85FF;
+    position: absolute;
+    font-size: 15px;
+    top: 40%;
+    right:10%;
+    border-radius: 10px;
+    width:25%;
+    height: 2vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+}
+
+.errorContainer{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}

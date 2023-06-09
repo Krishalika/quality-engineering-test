@@ -1,0 +1,180 @@
+body {
+    background-color: #030b13;
+    color: white;
+    font-family: Arial;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+.outerContainer{
+    position: relative;
+    justify-content: center;
+    top: 15%;
+    display: inline-block;
+    background-color: #182331;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    width:50vw;
+    height: 8vw;
+    padding: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+input{
+    display: inline-block;
+    margin-right: 2%;
+    position: absolute;
+    top: 35%;
+    left:10%;
+    background-color: #203043;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    width:50%;
+    height: 30%;
+    
+}
+
+button{
+    display: inline-block;
+    background-color: #2A85FF;
+    position: absolute;
+    font-size: 15px;
+    top: 35%;
+    right:10%;
+    border-radius: 10px;
+    width:25%;
+    height: 30%;
+    padding-right: 1vw;
+    padding-left: 1vw;
+
+}
+
+
+.CombinedContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    min-height: max-content;
+    background-color: #182331;
+    border-radius: 15px;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    /* height: (max-content/2); */
+    /* overflow: scroll; */
+    transition: height 0.3s ease;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+.CombinedContainer1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    min-height: max-content;
+    top: 70%;
+    left: 15%;
+    background-color: #182331;
+    border-radius: 15px;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    /* height: (max-content/2); */
+    /* overflow: scroll; */
+    transition: height 0.3s ease;
+    overflow: hidden;
+}
+
+.ContainerText {
+    display: flex;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.custom-line{
+    display: flex;
+    background-color: #393E4D;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 17vw;
+    overflow: auto;
+}
+
+.column {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.grid-container::-webkit-scrollbar {
+    width: 8px;
+    /* Change the width of the scrollbar */
+    background-color: #393e4d00;
+    border-radius: 4px;
+    /* Change the background color of the scrollbar track */
+}
+
+.grid-container::-webkit-scrollbar-thumb {
+    background-color: #393E4D;
+    /* Change the color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Add border-radius for a rounded thumb appearance */
+}
+
+.grid-container::-webkit-scrollbar-thumb:hover {
+    background-color: #393E4D;
+    /* Change the color of the scrollbar thumb when hovered */
+}
+
+
+
+.scroll-bar {
+    height: 27vw;
+    overflow: auto;
+}
+
+
+.scroll-bar::-webkit-scrollbar {
+    width: 8px;
+    /* Change the width of the scrollbar */
+    background-color: #393e4d00;
+    border-radius: 4px;
+    /* Change the background color of the scrollbar track */
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #393E4D;
+    /* Change the color of the scrollbar thumb */
+    border-radius: 4px;
+    /* Add border-radius for a rounded thumb appearance */
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: #393E4D;
+    /* Change the color of the scrollbar thumb when hovered */
+}
+
+  .CombinedContainer .rec {
+    /* width: calc(100% - 20px); */
+    /* min-height: max-content; */
+    margin: 10px;
+    
+    /* padding: 10px 0; */
+  }
+
+ 

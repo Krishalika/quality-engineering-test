@@ -1,0 +1,193 @@
+.rec{
+    background-color: #393E4D;
+    font-family: Arial;
+    border-radius: 15px;
+    align-items: center;
+    /* min-width:max-content; */
+    justify-content: center;
+
+}
+
+.recomContainerBeforCollapse{
+    display: flex;
+    /* font-family: Arial; */
+    justify-content: center;
+    /* border-radius: 15px; */
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+    width: 100%;
+    /* min-width:max-content; */
+}
+
+
+.recomContainerBeforCollapse .symbol{
+    /* margin-right: 2%; */
+    margin: 1%;
+    /* position: absolute; */
+    display: flex;
+    /* top: 25%;
+    left:2%; */
+    background-color: #203043;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 10px;
+    width:15%;
+    height: 3vw;
+}
+
+.recomContainerBeforCollapse .name{
+    margin: 0 2%;
+    /* position: absolute;
+    top: 25%;
+    left:25%; */
+    background-color: #203043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    width:50%;
+    height: 3vw;
+}
+
+.my_div_1{
+    margin-right: 2%;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:4vw;
+    height: 2vw;
+    /* top: 25%; */
+    /* left:77%; */
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.my_div_2{
+    margin-right: 2%;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:2.5vw;
+    height: 1vw;
+    /* top: 10%; */
+    /* left:5%; */
+    border-radius: 6px;
+    border: 0px;
+}
+
+ .recomContainerBeforCollapse .expand-btn{
+    margin: 2%;
+    /* position: absolute;
+    top: 25%;
+    left:25%; */
+    background-color: #203043;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border-radius: 10px;
+    width:5%;
+    height: 2vw;
+}
+
+
+.rec.expanded {
+    height: auto; /* Allow the div to expand to its natural height */
+  }
+  
+  
+  .rec.additional-info {
+    display: none; /* Hide the additional information by default */
+  }
+
+
+ .rec .Gics-code{
+    width: 84%;
+    display: flex;
+    position: relative;
+    top:1%;
+    left:5.5%;
+    margin: 2%;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+    background-color: #203043;
+    border: 0px;
+    border-radius: 10px;
+    height: 3vw;
+    /* margin-left: 1px; */
+
+
+  }
+
+  .Gics-code .Gics-Label{
+    color: #95A1B2;
+    width: 25%;
+    text-align: left;
+    padding-left: 1%;
+  }
+
+  .Gics-code .Gics-group{
+    width: 75%;
+    text-align: left;
+    padding-left: 1%;
+  }
+
+
+
+
+  .rec .BuisnessSummary{
+    width: 84%;
+    display: flex;
+    position: relative;
+    top:1%;
+    left:5.5%;
+    margin: 2%;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: left;
+    background-color: #203043;
+    border: 0px;
+    border-radius: 10px;
+    /* min-height: max-content; */
+    height: 4vw;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+
+  }
+
+  .BuisnessSummary .BuisnessSummary-Label{
+    color: #95A1B2;
+    width: 25%;
+    text-align: left;
+    padding-left: 1%;
+  }
+
+  .BuisnessSummary .BuisnessSummary-value{
+    width: 75%;
+    text-align: left;
+    min-height: max-content;
+    padding-left: 1%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* height: auto; */
+    /* word-wrap: break-word; */
+    /* white-space: normal; */
+    /* overflow-x: scroll; */
+  }

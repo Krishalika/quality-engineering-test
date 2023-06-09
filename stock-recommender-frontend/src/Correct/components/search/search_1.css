@@ -1,0 +1,35 @@
+body {
+    background-color: #030b13;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    align-items: center;
+  }
+
+.outerContainer{
+    background-color: #182331;
+    border-radius: 15px;
+    width:50%;
+    height: 5vw;
+
+}
+
+input{
+    background-color: #203043;
+    border: 10px;
+    border-color: #203043;
+    border-radius: 10px;
+    width:50%;
+    height: 2vw;
+    
+}
+
+button{
+    background-color: #2A85FF;
+    border-radius: 10px;
+    width:25%;
+    height: 2vw;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}

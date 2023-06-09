@@ -1,0 +1,52 @@
+body {
+    background-color: #030b13;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+  .outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .inputGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .errorContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .recommendationContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .recommendationCard {
+    background-color: #393E4D;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+  }
+  
+  .loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
